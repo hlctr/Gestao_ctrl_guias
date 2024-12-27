@@ -1,0 +1,16 @@
+{
+  "name": "equipment-management",
+  "version": "1.0.0",
+  "description": "Sistema de gestão e controle de equipamentos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed-script.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "dotenv": "^10.0.0"
+  }
+}
